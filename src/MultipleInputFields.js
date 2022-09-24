@@ -25,6 +25,19 @@ const [sey,seyGuncelle]=useState({ });
         <p>Favori Şarkıcısı</p>
         <input name="şarkıcı" onChange={multipleInputFonk} type="text" />
         </div>
+        <div>
+        <p>Birini seç</p>
+        <select name="secim" onChange={multipleInputFonk}>
+            <option value="tr">Türkiye</option>
+            <option value="fr">Fransa</option>
+            <option value="isr">İsrail</option>
+        </select>
+        </div>
+
+        <div>
+        <p>Bize mesajınız:</p>
+        <textarea name="mesaj" onChange={multipleInputFonk}/>
+        </div>
 
            
             <button type="submit">Gönder</button>
