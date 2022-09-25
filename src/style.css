@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+header, footer, section{
+    max-width: 1200px;
+    margin:auto;
+    padding: 1rem;
+    color: white;
+}
+
+header{
+    
+    background-color: green;
+    height: 100px;
+} 
+
+section{
+    background-color: blue;
+    min-height: calc(100vh - 200px);
+}
+
+
+footer{
+    background-color: yellow;
+    height: 100px;
+}
