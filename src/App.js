@@ -17,6 +17,12 @@ function App() {
               <Route index element={<AnaEkran />} />
               <Route path="ekran1" element={<Ekran1 />} />
               <Route path="ekran2" element={<Ekran2 />} />
+
+              <Route path="/kategori">
+                <Route path="kadin" element={<Ekran1 />}/>
+                <Route path="erkek" element={<Ekran1 />}/>
+              </Route>
+
               <Route path="*" element={<Bulunamadi />} />
             </Route>
           </Routes>
