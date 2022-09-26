@@ -5,6 +5,12 @@
     
 }
 
+a{
+    color:white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
 header, footer, section{
     max-width: 1200px;
     margin:auto;
