@@ -4,6 +4,8 @@ import Ekran2 from "./ekranlar/Ekran2";
 import Bulunamadi from "./ekranlar/Bulunamadi";
 import AnaEkran from "./ekranlar/AnaEkran";
 import Header from "./Header";
+import Kadin from "./ekranlar/Kadin";
+import Erkek from "./ekranlar/Erkek";
 function App() {
   return (
     <>
@@ -19,8 +21,8 @@ function App() {
               <Route path="ekran2" element={<Ekran2 />} />
 
               <Route path="/kategori">
-                <Route path="kadin" element={<Ekran1 />}/>
-                <Route path="erkek" element={<Ekran1 />}/>
+                <Route path="kadin" element={<Kadin />}/>
+                <Route path="erkek" element={<Erkek />}/>
               </Route>
 
               <Route path="*" element={<Bulunamadi />} />
